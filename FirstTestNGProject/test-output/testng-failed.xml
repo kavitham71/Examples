@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.listeners_demo.ListenerTest"/>
+  </listeners>
+  <test thread-count="5" name="testGuru(failed)">
+    <classes>
+      <class name="com.listeners_demo.TestCases">
+        <methods>
+          <include name="init"/>
+          <include name="TestToFail"/>
+        </methods>
+      </class> <!-- com.listeners_demo.TestCases -->
+    </classes>
+  </test> <!-- testGuru(failed) -->
+</suite> <!-- Failed suite [Suite] -->

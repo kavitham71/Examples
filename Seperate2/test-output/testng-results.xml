@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25592" started-at="2019-01-23T10:30:23Z" finished-at="2019-01-23T10:30:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25592" started-at="2019-01-23T10:30:23Z" finished-at="2019-01-23T10:30:49Z">
+      <class name="com.maintest.FluentWaitEx">
+        <test-method status="PASS" signature="call()[pri:0, instance:com.maintest.FluentWaitEx@2833cc44]" name="call" is-config="true" duration-ms="1759" started-at="2019-01-23T10:30:23Z" finished-at="2019-01-23T10:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- call -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.maintest.FluentWaitEx@2833cc44]" name="test" duration-ms="23771" started-at="2019-01-23T10:30:25Z" finished-at="2019-01-23T10:30:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.maintest.FluentWaitEx -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
