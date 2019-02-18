@@ -61,7 +61,7 @@ All Examples
    #### **FindElement :**
    - FindElement used to identify a (one) web element uniquely. By using ID, Name, Class Name, Link Text, Partial Link Text, Tag Name and XPATH ,we can find WebElements.
    - The command returns the web element that matches the first most element within the web page.
-   - Find Element command throws NoSuchElement exception if it does not find the element matching the criteria.
+   - Find Element command throws NoSuchElement exception if it does not find the element matching the criteria.<br/>
     Syntax: <br/>
        WebElement elmntName = driver.findElement(By.LocatorStrategy("LocatorValue")); <br/>
 
