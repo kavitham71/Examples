@@ -26,8 +26,7 @@ All Examples
  
  - Eclipse
  - Selenium jar files 
-   [Download](http://www.seleniumhq.org/download/ )
-    From  → select Java download link.
+   [Download selenium For java](http://www.seleniumhq.org/download/ )
     - For selenium jar files , download the following: 
       1) selenium-server-3.9.1.zip
       2) selenium-server-standalone-3.9.1.jar      
