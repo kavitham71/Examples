@@ -22,12 +22,12 @@ All Examples
 
 ## **What you need ?** 
 
- - Java  (must need JAV8 or higher For selenium-3)
-   $ java -version
-   $ javac -version
+ - Java  ( JAV8 or higher For selenium-3)
+ 
  - Eclipse
  - Selenium jar files 
-    From http://www.seleniumhq.org/download/  → select Java download link.
+   [Download](http://www.seleniumhq.org/download/ )
+    From  → select Java download link.
     - For selenium jar files , download the following: 
       1) selenium-server-3.9.1.zip
       2) selenium-server-standalone-3.9.1.jar      
