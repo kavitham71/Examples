@@ -2,7 +2,7 @@
 All Examples 
 
 
-**### What is Selenium ?** <br/>
+### **What is Selenium ?** <br/>
 
     Selenium is a free (open source) automated testing suite for web applications.
 
