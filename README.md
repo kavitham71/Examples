@@ -41,6 +41,11 @@ All Examples
    - For Firefox:
      System.setProperty(“webdriver.firefox.driver ”, “ location of firefox driver”); <br/>
      Webdriver driver = new FirefoxDriver();
+## **Headless Browsers:**
+   The browserws without a head or GUI are known as *_"Headless browsers"_* <br/>
+   i.e  We can not see anything on screen, programs runs at backend only. the programs can accrs the web pages but do not show them to the user.
+  #### **Ex:** PhantomJS, Html Unit Browser, trifleJS, SlimerJS, Zombie.js.
+
 
 ## **What are WebElements ?** <br/>
    Web Elements are used to interact with webpages.Web Element is a class . <br/>
@@ -49,9 +54,19 @@ All Examples
    ###### **WebElement myelement = driver.findElement(By.id(“username”));**  <br/>
    ###### **myelement.sendKeys(“Give a Username‘);**
 
+   ### **Types of WebElements** <br/>
+   1) FindElement
+   2) FindElements
+   
+   #### **FindElement :**
+   - FindElement used to identify a (one) web element uniquely. By using ID, Name, Class Name, Link Text, Partial Link Text, Tag Name and XPATH ,we can find WebElements.
+   - The command returns the web element that matches the first most element within the web page.
+   - Find Element command throws NoSuchElement exception if it does not find the element matching the criteria.
+    Syntax: <br/>
+       WebElement elmntName = driver.findElement(By.LocatorStrategy("LocatorValue")); <br/>
 
-## **Headless Browsers:**
-   The browserws without a head or GUI are known as *_"Headless browsers"_* <br/>
-   i.e  We can not see anything on screen, programs runs at backend only. the programs can accrs the web pages but do not show them to the user.
-  #### **Ex:** PhantomJS, Html Unit Browser, trifleJS, SlimerJS, Zombie.js.
+   Locator Value= is the unique value using which a web element can be identified.
+
+
+
 
