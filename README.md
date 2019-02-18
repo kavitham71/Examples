@@ -1,6 +1,6 @@
 # Examples
 All Examples 
-
+# * Selenium Webdriver:*
 
 # **What is mean by Selenium ?** <br/>
 
@@ -76,5 +76,8 @@ All Examples
      List<WebElement> elementName = driver.findElements(By.LocatorStrategy("LocatorValue"));
 
 
+## Types of Waits?
+- Implicit wait
+- Explicit wait
 
 
