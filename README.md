@@ -2,7 +2,7 @@
 All Examples 
 
 
-# **What is Selenium ?** <br/>
+# **What is mean by Selenium ?** <br/>
 
     Selenium is a free (open source) automated testing suite for web applications.
 
@@ -53,6 +53,5 @@ All Examples
 ## **Headless Browsers:**
    The browserws without a head or GUI are known as *_"Headless browsers"_* <br/>
    i.e  We can not see anything on screen, programs runs at backend only. the programs can accrs the web pages but do not show them to the user.
-  #### ** Ex:**
-   PhantomJS, Html Unit Browser, trifleJS, SlimerJS, Zombie.js .
+  #### **Ex:** PhantomJS, Html Unit Browser, trifleJS, SlimerJS, Zombie.js.
 
