@@ -46,6 +46,6 @@ All Examples
     Web Elements are used to interact with webpages.Web Element is a class . <br/>
     We can get it from  “org.openqa.selenium.*” Package. <br/>
     We can Instantiate Web Element Object as Folows:  <br/>
-    ###### **WebElement myelement = driver.findElement(By.id(“username”));**  <br/>
-    ###### **myelement.sendKeys(“Give a Username‘);**
+   ###### **WebElement myelement = driver.findElement(By.id(“username”));**  <br/>
+   ###### **myelement.sendKeys(“Give a Username‘);**
 
