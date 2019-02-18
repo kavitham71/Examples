@@ -2,25 +2,25 @@
 All Examples 
 
 
-##### **What is Selenium ?** <br/>
+## **What is Selenium ?** <br/>
 
     Selenium is a free (open source) automated testing suite for web applications.
 
 
-##### **What are Features ?**
+## **What are Features ?**
 
  - Flexible and extensible
  - Multiple lang. Supported
  - Supports multiple browsers & platforms.
 
-##### **What are Selenium Suite Of Tools (Components) ?**
+## **What are Selenium Suite Of Tools (Components) ?**
 
  - Selenium RC (depreciated) - Remote Control
  - Selenium IDE
  - Selenium Grid
  - Selenium WebDriver
 
-##### **What are Prerequisites for selenium WebDriver ?** 
+## **What are Prerequisites for selenium WebDriver ?** 
 
  - Java  (must need JAV8 or higher For selenium-3)
    $ java -version
@@ -33,7 +33,7 @@ All Examples
       2) selenium-server-standalone-3.9.1.jar      
  - Browser based drivers
  
-##### **How to Work with Drivers ?** 
+## **How to Work with Drivers ?** 
 
  - Download Chrome/Firefox Driver
    - For Chrome:
@@ -43,7 +43,7 @@ All Examples
      System.setProperty(“webdriver.firefox.driver ”, “ location of firefox driver”); <br/>
      Webdriver driver = new FirefoxDriver();
 
-##### **What are WebElements ?** <br/>
+## **What are WebElements ?** <br/>
     Web Elements are used to interact with webpages.Web Element is a class . <br/>
     We can get it from  “org.openqa.selenium.*” Package. <br/>
     We can Instantiate Web Element Object as Folows:  <br/>
