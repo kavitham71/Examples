@@ -68,5 +68,13 @@ All Examples
    Locator Value= is the unique value using which a web element can be identified.
 
 
+   #### **FindElements command** <br/>
+   - Find Elements command is used to uniquely identify the list of web elements within the web page. 
+   - This command returns a list of web elements that match the criteria.
+   - It takes By object as the parameter and returns a list of web elements. It returns an empty list if there are no elements found using the given locator strategy and locator value. <br/>
+    Syntax: <br/>
+     List<WebElement> elementName = driver.findElements(By.LocatorStrategy("LocatorValue"));
+
+
 
 
