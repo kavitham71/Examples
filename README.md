@@ -43,9 +43,16 @@ All Examples
      Webdriver driver = new FirefoxDriver();
 
 ## **What are WebElements ?** <br/>
-    Web Elements are used to interact with webpages.Web Element is a class . <br/>
-    We can get it from  “org.openqa.selenium.*” Package. <br/>
-    We can Instantiate Web Element Object as Folows:  <br/>
+   Web Elements are used to interact with webpages.Web Element is a class . <br/>
+   We can get it from  “org.openqa.selenium.*” Package. <br/>
+   We can Instantiate Web Element Object as Folows:  <br/>
    ###### **WebElement myelement = driver.findElement(By.id(“username”));**  <br/>
    ###### **myelement.sendKeys(“Give a Username‘);**
+
+
+## **Headless Browsers:**
+   The browserws without a head or GUI are known as *_"Headless browsers"_* <br/>
+   i.e  We can not see anything on screen, programs runs at backend only. the programs can accrs the web pages but do not show them to the user.
+  #### ** Ex:**
+   PhantomJS, Html Unit Browser, trifleJS, SlimerJS, Zombie.js .
 
