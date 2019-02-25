@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Day1 {
+public class BasicExample {
 	
 	WebDriver driver;
 	public void invokeBrowser() {
@@ -40,7 +40,7 @@ public void search() {
 }
 	public static void main(String[] args) {
 		
-		Day1 dayObj = new Day1();
+		Day1 dayObj = new BasicExample();
 		dayObj.invokeBrowser();
 		
 
