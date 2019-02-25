@@ -1,7 +1,7 @@
 # Examples
 All Examples 
 # *Selenium Webdriver:*
-
+   This Repository Contains Selenium basic Introduction and WebDriver Code Examples .
 # **What is mean by Selenium ?** <br/>
 
     Selenium is a free (open source) automated testing suite for web applications.
@@ -30,7 +30,7 @@ All Examples
     - For selenium jar files , download the following: 
       1) selenium-server-3.9.1.zip
       2) selenium-server-standalone-3.9.1.jar      
- - Browser based drivers
+ - Browser based drivers (Firefox Driver, Google Chrome Driver)
  
 ## **How to Work with Drivers ?** 
 
@@ -81,5 +81,17 @@ All Examples
 - Explicit wait : Used to tell the WebDriver to wait for certain conditions (Expected Conditions) , before throwing an "ElementNotVisibleException" exception.It can be applied only for specified elements.
 
  
+
+## Examples with:
+
+  - Mouse hover
+  - Drag & Drop
+  - Draggable
+  - Selectable
+  - Sortable
+  - Actionable
+  - Radio Button
+  - Checkbox
+  - Datepicker
 
 
