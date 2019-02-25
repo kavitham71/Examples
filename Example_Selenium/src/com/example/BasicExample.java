@@ -40,7 +40,7 @@ public void search() {
 }
 	public static void main(String[] args) {
 		
-		Day1 dayObj = new BasicExample();
+		BasicExample dayObj = new BasicExample();
 		dayObj.invokeBrowser();
 		
 
