@@ -77,7 +77,9 @@ All Examples
 
 
 ## Types of Waits?
-- Implicit wait
-- Explicit wait
+- Implicit wait : Used to tell to  the WebDriver to wait for certain amount of time before it throws a "No Such Element Exception".  
+- Explicit wait : Used to tell the WebDriver to wait for certain conditions (Expected Conditions) , before throwing an "ElementNotVisibleException" exception.It can be applied only for specified elements.
+
+ 
 
 
