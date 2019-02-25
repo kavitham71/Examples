@@ -11,7 +11,7 @@ public class BasicExample {
 	WebDriver driver;
 	public void invokeBrowser() {
 		try {
-			System.setProperty("webdriver.chrome.driver", "/home/vedams/Downloads/chromedriver");
+			System.setProperty("webdriver.chrome.driver", "/home/username/Downloads/chromedriver");
 			driver = new ChromeDriver();
 			driver.manage().deleteAllCookies();
 			driver.manage().window().maximize();
