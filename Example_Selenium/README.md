@@ -17,10 +17,9 @@
  
  ## EX: BasicExample.java
 In This Example ,
-First we can 
-driver.findElement(By.id("search-inp")).sendKeys("Java"); 
-- Used to find element in the browser page based on "id" we provided and we can send data using "sendKeys".
- 
-- sendKeys() is the method  is used to send data to an input field.
-- clear() method is used to delete the text in an input box.
-- 
+- **driver.get("url")** used to enter itno a web browser page.
+- **driver.findElement(By.id("search-inp")).sendKeys("Java");** 
+  Used to find element in the browser page based on "id" we provided and we can send data using "sendKeys".
+- **driver.findElement(By.id("search-button-bottom")).click();**
+  Used to click the event.
+
