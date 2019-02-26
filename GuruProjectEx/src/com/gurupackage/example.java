@@ -8,7 +8,7 @@ public class example {
 
 	public static void main(String[] args) {
 		
-		/*System.setProperty("webdriver.gecko.driver", "/home/vedams/Kavitha/eclipse_projects2/selenium_ex/GuruProjectEx/lib/Drivers/geckodriver/geckodriver");
+		/*System.setProperty("webdriver.gecko.driver", "/home/username/eclipse_projects2/selenium_ex/GuruProjectEx/lib/Drivers/geckodriver/geckodriver");
 
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.popuptest.com/popuptest2.html");
@@ -21,7 +21,7 @@ public class example {
 		}
 		//driver.close();
 		driver.quit();*/
-		System.setProperty("webdriver.gecko.driver", "/home/vedams/Kavitha/eclipse_projects2/selenium_ex/GuruProjectEx/lib/Drivers/geckodriver/geckodriver");
+		System.setProperty("webdriver.gecko.driver", "/home/username/eclipse_projects2/selenium_ex/GuruProjectEx/lib/Drivers/geckodriver/geckodriver");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://demo.guru99.com/selenium/deprecated.html");
         driver.switchTo().frame("classFrame");
