@@ -17,7 +17,7 @@ public class ClaEx {
 	String driverPath = "C:\\geckodriver.exe";
 	@BeforeTest(groups={"A","B"})
 	public void setup(){
-		System.setProperty("webdriver.chrome.driver", "/home/vedams/Kavitha/eclipse_projects2/selenium_ex/FirstTestNGProject/lib/drivers/chromedriver/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/home/username/eclipse_projects2/selenium_ex/FirstTestNGProject/lib/drivers/chromedriver/chromedriver");
 		driver = new ChromeDriver();
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			driver.get("https://google.com");
