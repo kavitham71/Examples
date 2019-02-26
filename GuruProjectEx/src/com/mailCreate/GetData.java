@@ -20,7 +20,7 @@ public class GetData {
 	public static void read() {
 		InputStream input;
 		try {
-			input = new FileInputStream("/home/vedams/Kavitha/eclipse_projects2/selenium_ex/GuruProjectEx/lib/configFile/config.properties");
+			input = new FileInputStream("/home/username/eclipse_projects2/selenium_ex/GuruProjectEx/lib/configFile/config.properties");
 			prop.load(input);
 			System.out.println(prop.getProperty("browser"));
 			CreateAccount.browser = prop.getProperty("browser");
