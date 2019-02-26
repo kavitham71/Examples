@@ -10,7 +10,7 @@ public class DataproviderClass {
 	public static Object[][] getDataFromDataprovider(Method m) {
 		if (m.getName().equalsIgnoreCase("login")) {
 			System.out.println("Method name: "+m.getName());
-			return new Object[][] { {"tweetatkavi7", "Jan12018"   }, { "ab@abc.com", "abc123" }
+			return new Object[][] { {"your mail_id", "your password"   }, { "ab@abc.com", "your password" }
 
 			};
 		} else {
