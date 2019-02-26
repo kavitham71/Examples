@@ -19,7 +19,7 @@ public class GmailLogin2 {
 		WebDriver driver = new FirefoxDriver();
 
 		driver.get("https://www.gmail.com");
-		driver.findElement(By.id("identifierId")).sendKeys("tweetatkavi7", Keys.ENTER);
+		driver.findElement(By.id("identifierId")).sendKeys("your mail-Id", Keys.ENTER);
 		
 		//driver.findElement(By.name("password")).sendKeys("PASSWORD",Keys.ENTER); --> Working
 		
