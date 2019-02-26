@@ -15,7 +15,7 @@ public class ByDataprovider {
 	
 	@BeforeTest
 	public void setUp() {
-		System.setProperty("webdriver.chrome.driver", "/home/vedams/Kavitha/eclipse_projects2/selenium_ex/FirstTestNGProject/lib/drivers/chromedriver/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/home/username/eclipse_projects2/selenium_ex/FirstTestNGProject/lib/drivers/chromedriver/chromedriver");
 		driver = new ChromeDriver();
 	    driver.get("http://demo.guru99.com/V4/");
 		
