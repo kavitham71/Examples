@@ -33,7 +33,7 @@ public class MailCheck {
 	public static void start() {
 
 		System.setProperty("webdriver.gecko.driver",
-				"/home/vedams/Kavitha/eclipse_projects2/selenium_ex/GuruProjectEx/lib/Drivers/geckodriver/geckodriver");
+				"/home/username/eclipse_projects2/selenium_ex/GuruProjectEx/lib/Drivers/geckodriver/geckodriver");
 
 		// TODO Auto-generated method stub
 		// Initialize WebDriver
@@ -55,7 +55,7 @@ public class MailCheck {
 			WebElement a1 = driver.findElement(By.xpath("//*[@id='identifierId']"));
 			if(a1.isEnabled()) {
 				System.out.println("---------Email exists -----------\n-------------");
-				a1.sendKeys("tweetatkavi7");
+				a1.sendKeys("your mail-id");
 			}
 		} catch (Throwable e) {
 			System.out.println("EmaiId not found: " + e.getMessage());
@@ -76,7 +76,7 @@ public class MailCheck {
 			WebElement password = driver.findElement(By.xpath("//input[@name='password']"));
 			WebDriverWait wait = new WebDriverWait(driver, 20);
 			wait.until(ExpectedConditions.elementToBeClickable(password));
-			password.sendKeys("Jan12018");
+			password.sendKeys("your password");
 		} catch (NoSuchElementException e) {
 			System.out.println("Password not found: " + e.getMessage());
 		}
