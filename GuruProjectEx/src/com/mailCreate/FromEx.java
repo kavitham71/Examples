@@ -72,28 +72,28 @@ public class FromEx {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		/*driver.findElement(By.id("lastName")).sendKeys("m",Keys.ALT);
-		driver.findElement(By.id("username")).sendKeys("sweetym733", Keys.ALT);
-		//driver.findElement(By.xpath("//*input[@type='Password']")).sendKeys("sweety@123", Keys.ENTER);
+		/*driver.findElement(By.id("lastName")).sendKeys("your lastname",Keys.ALT);
+		driver.findElement(By.id("username")).sendKeys("new username", Keys.ALT);
+		//driver.findElement(By.xpath("//*input[@type='Password']")).sendKeys("your password", Keys.ENTER);
 		WebElement password = driver.findElement(By.xpath("//input[@type='password']"));
 		WebDriverWait wait1 = new WebDriverWait(driver, 20);
 		wait1.until(ExpectedConditions.elementToBeClickable(password));
-		password.sendKeys("sweety@123",Keys.ALT);
+		password.sendKeys("your password",Keys.ALT);
 		
 		WebElement cnfpwd = driver.findElement(By.xpath("//input[@name='ConfirmPasswd']"));
 		WebDriverWait wait2 = new WebDriverWait(driver, 20);
 		wait2.until(ExpectedConditions.elementToBeClickable(cnfpwd));
-		cnfpwd.sendKeys("sweety@123",Keys.ALT);
+		cnfpwd.sendKeys("your password",Keys.ALT);
 		
 		driver.findElement(By.xpath("//span[@class='RveJvd snByac']")).click();
 		
 		WebElement mblno = driver.findElement(By.xpath("//input[@id='phoneNumberId']"));
 		WebDriverWait wait3 = new WebDriverWait(driver, 20);
 		wait3.until(ExpectedConditions.elementToBeClickable(mblno));
-		mblno.sendKeys("9492035217",Keys.ALT);
+		mblno.sendKeys("999999999",Keys.ALT);
 		
 		driver.findElement(By.xpath("//span[@class='RveJvd snByac']")).click();
-		driver.findElement(By.xpath("//input[@type='text']")).sendKeys("tweetatkavi7@gmail.com", Keys.ALT);
+		driver.findElement(By.xpath("//input[@type='text']")).sendKeys("mail_id@gmail.com", Keys.ALT);
 		*/
 		
 	} 
